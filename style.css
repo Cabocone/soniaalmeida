@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecario {
+    width: 100vw;
+    background-color: #111111;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 20%;
+}
+
+.cabecario__logo {
+    width: 190px;
+    height: auto;
+    padding: 1rem 2rem;
+}
+
+.cabecario__nav__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.cabecario__nav {
+    text-decoration: none;
+    color: #effefb;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.cabecario__nav:hover {
+    color: #B38B59;
+    font-size: 19px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 2rem 10rem;
+}
+
+.home__texto {
+    font-family: "Montserrat", sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+.home__texto__descricao {
+    font-weight: 800;
+}
+
+.home__imagem {
+    padding: 1rem 2rem;
+}
+
+.sobremim {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #52644c;
+}
+
+.sobremim__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.sobremim__titulo {
+    background-color: #B38B59;
+    color: #FEFEFE;
+    font-family: "Monteserrat", sans-serif;
+    font-size: 38px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sobremim__paragrafo {
+    text-indent: 2em;
+    font-family: "Roboto", sans-serif;
+    color: #F0F0F0;
+    text-align: justify;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    width: 30%;
+    padding-top: 4rem;
+}
+
+.sobremim__imagem{
+    height: 90%;
+}
+
+.especialidades {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    background-color: #f9f9f9;
+}
+
+.especialidades__titulo {
+    padding-top: 40px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.especialidades__box{
+    box-shadow: 0px 4px 24px 0px #7B7B7B26;
+}
+
+.especialidades__imagem{
+    width: 100%;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+}
+
+.especialidades__texto{
+    padding: 1rem;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+}
+
+.especialidades__paragrafo{
+    padding: 40px 20px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.contato{
+    height: 100vh;
+    height: 100%}
+
+.contato__titulo{
+    width: 100%;
+    border: 1px solid black;
+    background-color: #50222D;
+    color: #C4C4D0;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.contato__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #C4C4D0;
+    padding-bottom: 50px;
+    padding-left: 200px;
+}
+
+.contato__email{
+    background-color: #50222D;
+    color: #C4C4D0;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 43px;
+}
+
+.contato__email:hover{
+    color: #B38B59;
+}
+
+.contato__wpp{   
+    background-color: #50222D;
+    color: #C4C4D0;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.contato__wpp:hover{
+    color: #B38B59;
+}
+
+.contato__botoes__email{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    align-items: center;
+    gap: 20px;
+}
+
+.contato__botoes__wpp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    gap: 20px;
+}
+
+
+.contato__texto__botoes{
+    color: #50222D;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+}
+
+.rodape{
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem 0 6rem;
+}
+
+.rodape__logo{
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+}
+
+.rodape__texto{
+    color: #effefb;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .cabecario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .cabecario__logo {
+    padding-left: 0;
+    width: 100px;
+    }
+
+    .cabecario__nav{
+        padding: 0 0 0 1em;
+    } 
+
+    .sobremim{
+        height: 600px;
+    }
+
+    .sobremim__box{
+        padding-top: 0.5rem;
+    }
+
+    .home{
+        height: 1050px;
+    }
+
+    .sobremim__paragrafo{
+        padding-top: 1.5rem 0;
+        font-size: 20px;
+        width: 30%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .especialidades{
+        height: 600px;
+    }
+
+    .especialidades__texto{
+        font-size: 16px;
+        padding: 1rem;
+    }
+
+    .especialidades__imagem{
+        height: 100px;
+    }
+
+    .especialidades__paragrafo{
+        padding: 1rem;
+    }
+
+    .contato__container{
+        padding: 0 2rem 2.5rem 2rem;
+    }
+}
+
+@media screen and (max-width: 730px){
+    .cabecario__nav__container{
+        gap: 6px;
+    }
+
+    .home{
+        height: 400px;
+    }
+
+    .home__imagem{
+        height: 220px;
+    }
+
+    .home__texto{
+        padding: 1rem;
+        font-size: 22px;
+    }
+
+    .sobremim__box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .sobremim__paragrafo{
+        width: 100%;
+        font-size: 15px;
+        padding-left: 1rem;
+    }
+
+    .sobremim__imagem{
+        height: 180px;
+        padding: 0 auto;
+    }
+
+    .especialidades{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .contato__container{
+        padding: 2px 0 20px 2px;
+        gap: 1px;
+    }
+
+    .contato__email, .contato__wpp{
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+
+    .contato__texto__botoes{
+        font-size: 16px;
+    }
+}
