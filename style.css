@@ -314,12 +314,17 @@
 }
 
 @media screen and (max-width: 730px){
+    .cabecario{
+        margin-left: 10px;
+    }
+    
     .cabecario__nav__container{
         gap: 6px;
     }
 
     .home{
         height: 400px;
+        margin-left: 10px;
     }
 
     .home__imagem{
@@ -331,6 +336,10 @@
         font-size: 22px;
     }
 
+    .sobremim{
+        margin-left: 10px;
+    }
+    
     .sobremim__box{
         display: flex;
         justify-content: center;
@@ -350,12 +359,17 @@
     }
 
     .especialidades{
+        margin-left: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
         height: 100%;
     }
 
+    .contato{
+        margin-left: 10px;
+    }
+    
     .contato__container{
         padding: 2px 0 20px 2px;
         gap: 1px;
